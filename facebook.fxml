@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="845.0" prefWidth="1168.0" style="-fx-background-color: #edf0f8;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text blendMode="SRC_ATOP" layoutX="104.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See photos and updates" wrappingWidth="170.6708984375">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="104.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Share what's new" wrappingWidth="170.6708984375">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="104.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Find more" wrappingWidth="170.6708984375">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField alignment="TOP_LEFT" layoutX="16.0" layoutY="141.0" prefHeight="58.0" prefWidth="393.0" style="-fx-background-color: #edf0f8;" text="Connect with friends and the ">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="16.0" layoutY="199.0" prefHeight="50.0" prefWidth="366.0" style="-fx-background-color: #edf0f8;" text="world around you on Facebook.">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <Text layoutX="291.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="from friends in News Feed" wrappingWidth="183.6708984375" />
+      <Text layoutX="265.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="in your life on your Timeline" wrappingWidth="200.6708984375" />
+      <Text layoutX="212.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="of what you're looking for with Facebook search" wrappingWidth="323.6708984375" />
+      <Pane layoutX="-4.0" prefHeight="86.0" prefWidth="1174.0" style="-fx-background-color: #204178;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="facebook" wrappingWidth="250.6708984375">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="684.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email or Phone" wrappingWidth="128.6708984375">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="890.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <TextField layoutX="684.0" layoutY="29.0" prefHeight="31.0" prefWidth="184.0" />
+            <PasswordField layoutX="890.0" layoutY="29.0" prefHeight="12.0" prefWidth="150.0" />
+            <Button layoutX="1093.0" layoutY="29.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" style="-fx-background-color: #213680;" text="Log In" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Text fill="#7e84da" layoutX="890.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot account ?" wrappingWidth="150.0" />
+         </children>
+      </Pane>
+      <Text layoutX="650.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="650.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It's free and always will be" wrappingWidth="219.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="650.0" layoutY="234.0" promptText="First Name" />
+      <TextField layoutX="870.0" layoutY="234.0" promptText="Last Name" />
+      <TextField layoutX="650.0" layoutY="276.0" prefHeight="31.0" prefWidth="393.0" promptText="Mobile number or email" />
+      <ComboBox layoutX="647.0" layoutY="411.0" prefHeight="31.0" prefWidth="113.0" style="-fx-background-color: white;" />
+      <ComboBox layoutX="771.0" layoutY="411.0" prefHeight="31.0" prefWidth="99.0" style="-fx-background-color: white;" />
+      <ComboBox layoutX="885.0" layoutY="411.0" prefHeight="31.0" prefWidth="113.0" style="-fx-background-color: white;" />
+      <PasswordField layoutX="650.0" layoutY="321.0" prefHeight="31.0" prefWidth="393.0" promptText="New Password" />
+      <Text layoutX="650.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#1a2290" layoutX="645.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Why do I need to provide my birthday ?" />
+      <CheckBox layoutX="657.0" layoutY="496.0" mnemonicParsing="false" text="Female" />
+      <CheckBox layoutX="824.0" layoutY="496.0" mnemonicParsing="false" text="Male" />
+      <Button layoutX="645.0" layoutY="606.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="292.0" style="-fx-background-color: green;" text="Create Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Button>
+      <ImageView layoutX="14.0" layoutY="266.0">
+         <image>
+            <Image url="@../Pictures/Screenshots/Screenshot%20(17).png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
